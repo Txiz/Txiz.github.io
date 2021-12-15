@@ -3,6 +3,10 @@ const sidebars = {
     {
       type: 'doc',
       id: '指南'
+    },
+    {
+      type: 'doc',
+      id: '关于本站',
     }
   ],
   Sidebar_CompurterBasic: [
