@@ -24,15 +24,9 @@ const config = {
     ],
   ],
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
   ],
   themeConfig: {
-    algolia: {
-      appId: '7YQV8ZC3Y6',
-      apiKey: '223a66d7fed759dfba91310b01a753d2',
-      indexName: 'Txiz',
-      contextualSearch: true,
-    },
     navbar: {
       title: '闲思笔记',
       logo: {
