@@ -29,38 +29,34 @@ const config = {
   themeConfig: {
     navbar: {
       title: '闲思笔记',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      // logo: {
+      //   alt: 'My Site Logo',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         {
           type: 'doc',
           docId: '指南',
-          position: 'left',
+          position: 'right',
           label: '指南',
         },
         {
           type: 'doc',
           docId: 'ComputerBasic/导航',
-          position: 'left',
+          position: 'right',
           label: '计算机基础',
         },
         {
           type: 'doc',
           docId: 'Java/导航',
-          position: 'left',
+          position: 'right',
           label: 'Java',
         },
         {
           type: 'doc',
           docId: 'Database/导航',
-          position: 'left',
+          position: 'right',
           label: '数据库',
-        },
-        {
-          type: 'search',
-          position: 'left',
         },
         {
           href: 'https://github.com/Txiz/Txiz.github.io',
@@ -72,7 +68,7 @@ const config = {
     },
     footer: {
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Txiz, Built with <a href="https://www.docusaurus.cn/">Docusaurus</a>.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Txiz`,
     },
     prism: {
       theme: darkCodeTheme,
