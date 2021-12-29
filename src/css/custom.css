@@ -17,14 +17,6 @@
 
   --ifm-footer-padding-horizontal: 1rem;
   --ifm-footer-padding-vertical: 1rem;
-
-  --ifm-font-weight-light: 200;
-  --ifm-font-weight-normal: 200;
-  --ifm-font-weight-semibold: 200;
-}
-
-html {
-  font-weight: 200;
 }
 
 .docusaurus-highlight-code-line {
