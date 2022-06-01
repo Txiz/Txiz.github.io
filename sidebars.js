@@ -6,7 +6,15 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: '关于本站',
+      id: '关于作者'
+    },
+    {
+      type: 'doc',
+      id: '使用 Github Pages 搭建个人知识库',
+    },
+    {
+      type: 'doc',
+      id: '在 Win11 上获得 Linux 的终端体验',
     }
   ],
   Sidebar_CompurterBasic: [

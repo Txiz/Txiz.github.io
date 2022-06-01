@@ -23,17 +23,17 @@ const FeatureList = [
   //     </>
   //   ),
   // },
-  {
-    title: '关于本站',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        本站点是使用 Facebook 开源的 Docusaurus 构建的。
-        <br/>
-        <a href='./关于本站'>如何构建一个类似的站点。</a>
-      </>
-    ),
-  },
+  // {
+  //   title: '关于本站',
+  //   Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       本站点是使用 Facebook 开源的 Docusaurus 构建的。
+  //       <br/>
+  //       <a href='./关于本站'>如何构建一个类似的站点。</a>
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
