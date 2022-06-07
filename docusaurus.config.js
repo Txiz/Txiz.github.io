@@ -36,7 +36,7 @@ const config = {
       items: [
         {
           type: 'doc',
-          docId: '指南',
+          docId: 'Home/指南',
           position: 'right',
           label: '指南',
         },

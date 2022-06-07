@@ -2,19 +2,19 @@ const sidebars = {
   Siderbar_Introduction: [
     {
       type: 'doc',
-      id: '指南'
+      id: 'Home/指南'
     },
     {
       type: 'doc',
-      id: '关于作者'
+      id: 'Home/关于作者'
     },
     {
       type: 'doc',
-      id: '使用 Github Pages 搭建个人知识库',
+      id: 'Home/使用 Github Pages 搭建个人知识库',
     },
     {
       type: 'doc',
-      id: '在 Win11 上获得 Linux 的终端体验',
+      id: 'Home/在 Win11 上获得 Linux 的终端体验',
     }
   ],
   Sidebar_CompurterBasic: [
