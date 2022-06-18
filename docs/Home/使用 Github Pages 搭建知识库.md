@@ -129,7 +129,7 @@ jobs:
 
 如果希望使用 txiz.top 这个域名来访问项目，只需要在 Github Pages 的设置页面下方的 Custom domain 里输入自己的域名即可。
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/GithubPages.png)
+![](Image/使用%20Github%20Pages%20搭建知识库/GithubPages.png)
 
 :::info 如何获取自己的域名
 关于如何获取自己的域名，你需要去阿里云（或者别的云厂商）上购买域名，但是如果你从来没有购买过自己的域名的话，那么会耗费大概一天到一周左右的时间，因为首先要完成个人的信息登记，个人信息登记成功以后才能购买域名。
@@ -139,7 +139,7 @@ jobs:
 
 接着是在自己的域名厂商中配置对应的 DNS 解析，比如我是用的阿里云购买的 txiz.top 这个域名，那么登录阿里云，进入控制台，找到**云解析 DNS / 域名解析 / 解析设置**，然后添加 www 和 @ 两条主机记录，如下图所示。
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/域名解析.png)
+![](Image/使用%20Github%20Pages%20搭建知识库/域名解析.png)
 
 这样设置其实已经成功配置了自己的域名，但是当推送新的代码到 Github 仓库的时候，就会发现配置的域名失效了。
 
@@ -157,14 +157,14 @@ jobs:
 
 Cloudflare 的 CDN 加速非常简单，首先访问他们的官方网站 [Cloudflare](https://www.cloudflare.com/zh-cn/)，然后注册一个账号，进入控制台，选择网站，然后输入你的加速域名，比如我的 txiz.top，然后添加站点。
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/Cloudflare.png)
+![](Image/使用%20Github%20Pages%20搭建知识库/Cloudflare.png)
 
 接着 Cloudflare 会要求你选择付费计划，选择免费的使用计划就行，然后就是添加 DNS 记录，这个需要到你的域名购买厂商去添加，还是刚才我们自己的域名配置 DNS 解析的地方，添加第三条解析，按照 Cloudflare 的提示，主机记录叫做 _dnsauth，记录类型 txt，如下图所示的第三个记录。
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/域名解析.png)
+![](Image/使用%20Github%20Pages%20搭建知识库/域名解析.png)
 
 添加以后，回到 Cloudflare 页面，点击检测，如果暂时检测不到就等一会，Cloudflare 会和你发邮件的，成功以后就可以实现 CDN 加速了，Cloudflare 的控制台里应该有加速的域名，并显示有效。可以通过使用 F12 查看自己的网站的请求来源来进一步确定是否加速成功。
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/Cloudflare设置成功.png)
+![](Image/使用%20Github%20Pages%20搭建知识库/Cloudflare设置成功.png)
 
-![](Image/使用%20Github%20Pages%20搭建个人知识库/F12查看结果.jpg)
+![](Image/使用%20Github%20Pages%20搭建知识库/F12查看结果.jpg)

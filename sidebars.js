@@ -10,11 +10,11 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'Home/使用 Github Pages 搭建个人知识库',
+      id: 'Home/使用 Github Pages 搭建知识库',
     },
     {
       type: 'doc',
-      id: 'Home/在 Win11 上获得 Linux 的终端体验',
+      id: 'Home/在 Win11 上获得 Mac 的终端体验',
     }
   ],
   Sidebar_CompurterBasic: [
