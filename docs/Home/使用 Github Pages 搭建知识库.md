@@ -1,4 +1,4 @@
-本站点是使用 Facebook 开源的 [Docusaurus](https://www.docusaurus.cn/docs/) 构建的。
+本站点是使用 Facebook 开源的 [Docusaurus](https://docusaurus.io/) 构建的。如果国外的官网访问速度太慢，可以访问 [Docusaurus 中文站点](https://www.docusaurus.cn/docs/)。
 
 🧐 [Docusaurus](https://www.docusaurus.cn/docs/) 是一个静态网站生成器。它发挥了 [React](https://reactjs.org/) 的全部功能来构建具有快速客户端导航的单页应用，从而赋予你的网站交互性。它提供了开箱即用的文档功能，还能用于创建任何类型的网站（例如个人网站、产品介绍、博客、营销页等等）。
 
@@ -6,9 +6,11 @@
 
 ## **搭建步骤**
 
-要求系统上有 Node.js 可以使用 `npm -v` 命令检查计算机上是否安装了 Node 环境。
+要求电脑上安装有有 Node.js，如果不会安装的话可以百度，网上有大量的教程。
 
-然后使用如下命令构建一个最基本的脚手架项目。
+可以使用 `npm -v` 命令检查计算机上是否安装了 Node 环境。
+
+打开终端切换到一个空目录下，然后使用如下命令构建一个最基本的脚手架项目。
  
 ```npm
 npx create-docusaurus@latest [name] [template]
@@ -52,7 +54,9 @@ website
 └── sidebars.js
 ```
 
-我一般使用 VSCode 来编写博客，VSCode 能够比较方便的使用 Git 进行源代码管理。写博客的手感不如 Typora，但是也还行（为什么不用呢，因为 Typora 收费啦 🐶），首先需要自己的 Github 账户，然后创建一个项目仓库，我的仓库名是 Txiz.github.io，然后将本地的文件推送上去，**请注意你的推送分支，我的主分支叫做 main，但是 VSCode 的默认命名时 master**。
+我一般使用 VSCode 来编写博客，VSCode 能够比较方便的使用 Git 进行源代码管理。写博客的手感不如 Typora，但是也还行（为什么不用呢，因为 Typora 收费啦 🐶）
+
+首先需要自己的 Github 账户，然后登录 Github 并创建一个项目仓库，我的仓库名是 Txiz.github.io，然后将本地的文件推送上去，**请注意你的推送分支，我的主分支叫做 main，但是 VSCode 的默认命名时 master**。
 
 要想使用 Github Actions，其实非常简单，只需要在 website 目录下创建 ./.github/workflows/deploy.yml 文件（**注意目录名为 .github**）即可，新的目录结构如下。
 
