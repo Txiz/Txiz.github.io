@@ -4,18 +4,6 @@ const sidebars = {
       type: 'doc',
       id: 'Home/指南'
     },
-    {
-      type: 'doc',
-      id: 'Home/关于作者'
-    },
-    {
-      type: 'doc',
-      id: 'Home/使用 Github Pages 搭建知识库',
-    },
-    {
-      type: 'doc',
-      id: 'Home/在 Win11 上获得 Mac 的终端体验',
-    }
   ],
   Sidebar_CompurterBasic: [
     'ComputerBasic/导航',

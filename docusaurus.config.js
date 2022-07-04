@@ -65,7 +65,7 @@ const config = {
     },
     footer: {
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Txiz`,
+      copyright: `Copyright © ${new Date().getFullYear()} 打呆呆兽的小锤子`,
     },
     prism: {
       theme: darkCodeTheme,

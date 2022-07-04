@@ -1,3 +1,3 @@
 Txiz Note
 
-> 文章迁移中 https://txiz.top
+> 文章迁移中 https://txiz.github.io
