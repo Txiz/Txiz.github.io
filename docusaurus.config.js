@@ -26,6 +26,7 @@ const config = {
   themeConfig: {
     navbar: {
       title: '闲思笔记',
+      hideOnScroll: true,
       // logo: {
       //   alt: 'My Site Logo',
       //   src: 'img/logo.svg',
@@ -64,8 +65,13 @@ const config = {
       ],
     },
     footer: {
-      style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} 打呆呆兽的小锤子`,
+      style: 'dark',
+      copyright: `版权所有 © ${new Date().getFullYear()} 打呆呆兽的小锤子，此网站使用 Docusaurus 构建。`,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
     prism: {
       theme: darkCodeTheme,
