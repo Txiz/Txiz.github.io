@@ -38,6 +38,12 @@ const config = {
           position: 'right',
           label: '指南',
         },
+        {
+          type: 'doc',
+          docId: 'Rust/导航',
+          position: 'right',
+          label: 'Rust',
+        },
         // {
         //   type: 'doc',
         //   docId: 'ComputerBasic/导航',

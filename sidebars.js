@@ -47,6 +47,9 @@ const sidebars = {
   Sidebar_Database: [
     'Database/导航',
   ],
+  Sidebar_Rust: [
+    'Rust/导航',
+  ]
 };
 
 module.exports = sidebars;
