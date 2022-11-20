@@ -44,24 +44,24 @@ const config = {
           position: 'right',
           label: 'Rust',
         },
-        // {
-        //   type: 'doc',
-        //   docId: 'ComputerBasic/导航',
-        //   position: 'right',
-        //   label: '计算机基础',
-        // },
-        // {
-        //   type: 'doc',
-        //   docId: 'Java/导航',
-        //   position: 'right',
-        //   label: 'Java',
-        // },
-        // {
-        //   type: 'doc',
-        //   docId: 'Database/导航',
-        //   position: 'right',
-        //   label: '数据库',
-        // },
+        {
+          type: 'doc',
+          docId: 'ComputerBasic/导航',
+          position: 'right',
+          label: '计算机基础',
+        },
+        {
+          type: 'doc',
+          docId: 'Java/导航',
+          position: 'right',
+          label: 'Java',
+        },
+        {
+          type: 'doc',
+          docId: 'Database/导航',
+          position: 'right',
+          label: '数据库',
+        },
         {
           href: 'https://github.com/Txiz/Txiz.github.io',
           position: 'right',
